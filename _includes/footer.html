@@ -2,38 +2,42 @@
 <section id="contact">
 	<div class="inner">
 		<section>
-			<div class="contact-method">
-				<span class="icon alt fa-envelope"></span>
-				<h3>Email</h3>
-				<a href="mailto:{{ site.email }}">{{ site.email }}</a>
-			</div>
+			<img src="{% link assets/images/moormaker_blob.svg %}" alt="" data-position="center center" />
 		</section>
-		<section>
-			<div class="contact-method">
-				<span class="icon alt fa-home"></span>
-				<h3>Hier werkeln wir:</h3>
-				<span>
-				{% if site.street_address %}
-					{{ site.street_address }}<br />
-				{% endif %}
-				{% if site.city %}
-					{{ site.city }},
-				{% endif %}
-				{% if site.state %}
-					{{ site.state }} 
-				{% endif %}
-				{% if site.zip_code %}
-					{{ site.zip_code }}<br />
-				{% endif %}
-				{% if site.country %}
-					{{ site.country }}
-				{% endif %}
-				</span>
-			</div>
-		</section>
-	</div>
+		<section class="split">
+			<section>
+				<div class="contact-method">
+					<span class="icon alt fa-envelope"></span>
+					<h3>Email</h3>
+					<a href="mailto:{{ site.email }}">{{ site.email }}</a>
+				</div>
+			</section>
+			<section>
+				<div class="contact-method">
+					<span class="icon alt fa-home"></span>
+					<h3>Hier werkeln wir:</h3>
+					<span>
+					{% if site.street_address %}
+						{{ site.street_address }}<br />
+					{% endif %}
+					{% if site.city %}
+						{{ site.city }},
+					{% endif %}
+					{% if site.state %}
+						{{ site.state }} 
+					{% endif %}
+					{% if site.zip_code %}
+						{{ site.zip_code }}<br />
+					{% endif %}
+					{% if site.country %}
+						{{ site.country }}
+					{% endif %}
+					</span>
+				</div>
+			</section>
+		</div>
+	</section>
 </section>
-
 <!-- Footer -->
 	<footer id="footer">
 		<div class="inner">
