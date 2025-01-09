@@ -3,9 +3,10 @@ title: Moormaker
 subtitle: Sustrum Moor
 email: website@moormaker.de
 description: Wir sind die MoorMaker, eine Untergruppierung des Heimatvereins Sustrum Moor e.V.
-baseurl: "/forty-jekyll-theme" # the subpath of your site, e.g. /blog
-url: # the base hostname & protocol for your site
 author:
+domain: moormaker.github.io       # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
+url: moormaker.github.io  # the base hostname and protocol for your site, e.g. http://example.com
+baseurl: /moormaker.github.io/ #REPOSITORY-NAME/      # place folder name if the site is served in a subfolder
 street_address: Kirchstraße 2
 city: Sustrum-Moor
 state: Niedersachsen
@@ -54,6 +55,3 @@ kramdown:
   math_engine: mathjax
   syntax_highlighter: rouge
 
-domain: moormaker.github.io       # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
-url: https://moormaker.github.io  # the base hostname and protocol for your site, e.g. http://example.com
-baseurl: / #REPOSITORY-NAME/      # place folder name if the site is served in a subfolder
