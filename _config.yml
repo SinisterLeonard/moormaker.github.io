@@ -1,0 +1,55 @@
+# site settings
+title: Moormaker
+subtitle: Sustrum Moor
+email: website@moormaker.de
+description: Wir sind die MoorMaker, eine Untergruppierung des Heimatvereins Sustrum Moor e.V.
+baseurl: "/forty-jekyll-theme" # the subpath of your site, e.g. /blog
+url: # the base hostname & protocol for your site
+author:
+street_address: Kirchstraße 2
+city: Sustrum-Moor
+state: Niedersachsen
+zip_code: 49762
+country: Deutschland
+phone: /
+
+# homepage tiles
+tiles-source: pages # accepts "posts" or "pages"
+tiles-count: 6
+
+# social settings (key must match name of font awesome icon)
+# see https://fontawesome.com/icons?d=gallery&p=2&s=brands
+# Icons are not shown if value is empty
+# You need to restart jekyll for changes to have an effect
+socials:
+  #GitHub: https://github.com/andrewbanchich
+  #GitLab:
+  #Google-Plus: https://plus.google.com/u/0/+AndrewBanchich
+  #Instagram:
+  #LinkedIn: https://www.linkedin.com/in/andrew-banchich-a4ba1195
+  #Twitter: https://twitter.com/andrewbanchich
+  #Facebook:
+  #Slack:
+
+# build settings
+markdown: kramdown
+
+sass:
+  style: compressed
+
+exclude:
+- "*.gemspec"
+- LICENSE.md
+- CONTRIBUTING.md
+- README.md 
+
+lsi: false
+safe: true
+source: moormaker_site
+incremental: false
+highlighter: rouge
+gist:
+  noscript: false
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge
